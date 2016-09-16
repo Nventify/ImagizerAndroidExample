@@ -1,5 +1,65 @@
 <resources>
     <string name="app_name">ImagizerEngine Client Example App</string>
+    <string name="imagizer">Imagizer</string>
+    <string name="webp">Webp</string>
+    <string name="quality">Quality:</string>
+    <string name="original_download_size">Original download size:</string>
+    <string name="_0_kb">0 kb</string>
+    <string name="imagizer_download_size">Imagizer download size:</string>
+    <string name="size_reduction">Size reduction:</string>
+    <string name="_0">0%</string>
+    <string name="scale">Scale</string>
+    <string name="width">Width</string>
+    <string name="scale_the_image_by_width_the_height_will_be_calculated_by_the_aspect_ratio_of_the_source_image">Scale the image by width. The height will be calculated by the aspect ratio of the source image.</string>
+    <string name="width_300">width=300</string>
+    <string name="height">Height</string>
+    <string name="scale_the_image_by_height_the_width_will_be_calculated_by_the_aspect_ratio_of_the_source_image">Scale the image by height. the width will be calculated by the aspect ratio of the source image.</string>
+    <string name="height_300">height=300</string>
+    <string name="crop">Crop</string>
+    <string name="fit">Fit</string>
+    <string name="crops_any_excess_image_data_outside_the_width_and_height_boundaries_after_scaling_the_output_image_will_match_exactly_the_dimensions_given">Crops any excess image data outside the width and height boundaries after scaling. The output image will match exactly the dimensions given.</string>
+    <string name="width_300_038_height_300_038_crop_fit"><![CDATA[width=300&height=300&crop=fit]]></string>
+    <string name="responsive_images">Responsive Images</string>
+    <string name="response_images_will_be_scaled_and_cropped_automatically_to_fit_perfectly_into_image_views_no_matter_the_device_or_screen_size">Response images will be scaled and cropped automatically to fit perfectly into image views no matter the device or screen size</string>
+    <string name="pad">Pad</string>
+    <string name="resizes_an_image_to_the_given_dimensions_and_fills_the_extra_space_with_pad_color_the_default_color_is_white">Resizes an image to the given dimensions and fills the extra space with pad_color. The default color is white.</string>
+    <string name="width_300_038_height_300_038_crop_pad"><![CDATA[width=300&height=300&crop=pad]]></string>
+    <string name="custom">Custom</string>
+    <string name="custom_crop_allows_for_specifying_a_sub_region_of_the_source_image_to_be_returned_the_value_is_4_numbers_representing_x_y_width_and_height_separated_using_commas">Custom crop allows for specifying a sub-region of the source image to be returned The value is 4 numbers representing x, y, width, and height separated using commas.</string>
+    <string name="crop_65_190_300_300">crop=65,190,300,300</string>
+    <string name="object_detection">Object Detection</string>
+    <string name="face">Face</string>
+    <string name="crops_out_image_data_around_any_faces_detected_in_the_image">Crops out image data around any faces detected in the image.</string>
+    <string name="crop_face">crop=face</string>
+    <string name="entropy">Entropy</string>
+    <string name="entropy_crop_will_find_and_return_the_most_interesting_features_of_the_source_image_cropping_out_less_important_areas">Entropy crop will find and return the most interesting features of the source image, cropping out less important areas.</string>
+    <string name="crop_entropy">crop=entropy</string>
+    <string name="adds_padding_around_an_image_with_a_given_pad_color_as_a_hex_string_the_default_color_is_white">Adds padding around an image with a given pad_color as a hex string. The default color is white.</string>
+    <string name="pad_20_038_pad_color_555"><![CDATA[pad=20&pad_color=555]]></string>
+    <string name="rotate">Rotate</string>
+    <string name="the_angle_parameter_tells_imagizer_to_rotate_the_image_counter_clockwise_n_degrees_the_meaningful_values_are_90_180_and_270_degrees">The angle parameter tells Imagizer to rotate the image counter clockwise N degrees. The meaningful values are 90, 180, and 270 degrees.</string>
+    <string name="angle_90">angle=90</string>
+    <string name="quality_compression">Quality (Compression)</string>
+    <string name="the_quality_setting_allows_for_specifying_the_quality_of_the_image_decreasing_the_quality_parameter_will_reduce_the_file_size_quality_value_may_be_set_from_1_to_100_and_the_default_value_is_90">The quality setting allows for specifying the quality of the image. Decreasing the quality parameter will reduce the file size. Quality value may be set from 1 to 100 and the default value is 90.</string>
+    <string name="quality_90">quality=90</string>
+    <string name="quality_10">quality=10</string>
+    <string name="sharpening">Sharpening</string>
+    <string name="increase_image_sharpness">Increase image sharpness</string>
+    <string name="sharp_amount_0">sharp_amount=0</string>
+    <string name="sharp_amount_100">sharp_amount=100</string>
+    <string name="blur">Blur</string>
+    <string name="blur_images_0_100">Blur Images (0&#8211;100)</string>
+    <string name="blur_0">blur=0</string>
+    <string name="blur_30">blur=30</string>
+    <string name="filters">Filters</string>
+    <string name="filters_apply_various_effects_to_images_imagizer_offers_20_different_filters">Filters apply various effects to images. Imagizer offers 20 different filters.</string>
+    <string name="filter_2">filter=2</string>
+    <string name="filter_3">filter=3</string>
+    <string name="filter_21">filter=21</string>
+    <string name="watermarking">Watermarking</string>
+    <string name="imagizer_supports_watermarking_pass_the_watermark_image_path_and_a_few_spatial_parameters">Imagizer supports watermarking. Pass the watermark image path and a few spatial parameters</string>
+    <string name="mark_is_test_img921_1417_klvinj_png_038_mark_scale_60_038_mark_pos_bottom_right_038_mark_offset_2"><![CDATA[mark=/is-test/img921/1417/KlViNj.png&mark_scale=60&mark_pos=bottom,right&mark_offset=2]]></string>
+    <string name="switch_text">Switch</string>
 
     <string-array name="quality_array">
         <item>100</item>
@@ -14,5 +74,4 @@
         <item>10</item>
     </string-array>
 
-    <string name="preference_file_key">preference_file</string>
 </resources>

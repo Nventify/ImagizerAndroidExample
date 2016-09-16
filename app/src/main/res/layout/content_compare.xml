@@ -30,7 +30,7 @@
             <ToggleButton
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:text="Imagizer"
+                android:text="@string/imagizer"
                 android:id="@+id/switch1"
                 android:checked="false"
                 android:textOff="Imagizer"
@@ -38,26 +38,28 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ToggleButton
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:text="Webp"
+                android:text="@string/webp"
                 android:id="@+id/switch2"
                 android:checked="false"
                 android:textOff="Webp"
                 android:textOn="Webp"
                 android:layout_toEndOf="@+id/switch1"
-                android:textSize="12dp" />
+                android:layout_toRightOf="@+id/switch1"
+                android:textSize="12sp"
+                />
 
             <TextView
                 android:id="@+id/qualityLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
+                android:layout_gravity="end"
                 android:paddingTop="4dp"
-                android:text="Quality: "
+                android:text="@string/quality"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="#000000"
                 android:layout_alignWithParentIfMissing="false"
@@ -65,7 +67,8 @@
                 android:layout_toLeftOf="@+id/spinner"
                 android:layout_toStartOf="@+id/spinner"
                 android:labelFor="@id/spinner"
-                android:layout_marginTop="14dp" />
+                android:layout_marginTop="14dp"
+                tools:ignore="RelativeOverlap" />
 
             <Spinner
                 android:id="@+id/spinner"
@@ -76,7 +79,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignTop="@+id/qualityLabel"
-                android:gravity="right" />
+                android:gravity="end" />
 
         </RelativeLayout>
 
@@ -110,7 +113,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:text="Original download size:"
+                    android:text="@string/original_download_size"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 <Space />
@@ -120,7 +123,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
-                    android:text="0 kb"
+                    android:text="@string/_0_kb"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
             </TableRow>
 
@@ -131,7 +134,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:text="Imagizer download size:"
+                    android:text="@string/imagizer_download_size"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 <Space />
@@ -141,7 +144,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
-                    android:text="0 kb"
+                    android:text="@string/_0_kb"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
             </TableRow>
 
@@ -152,7 +155,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:text="Size reduction:"
+                    android:text="@string/size_reduction"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 <Space />
@@ -162,7 +165,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
-                    android:text="0%"
+                    android:text="@string/_0"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
             </TableRow>
 
@@ -175,9 +178,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/tableLayout2"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            tools:ignore="ContentDescription" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -193,7 +197,8 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="8dp"
-                android:layout_weight="50" />
+                android:layout_weight="50"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -202,7 +207,8 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="7dp"
-                android:layout_weight="50" />
+                android:layout_weight="50"
+                tools:ignore="ContentDescription" />
 
         </LinearLayout>
 
@@ -216,7 +222,7 @@
             android:layout_marginTop="10dp"
             tools:ignore="ContentDescription" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <LinearLayout
             android:layout_below="@+id/imageView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -234,7 +240,8 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="10dp"
-                android:layout_weight="50" />
+                android:layout_weight="50"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -257,7 +264,7 @@
             android:layout_marginTop="10dp"
             tools:ignore="ContentDescription" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"

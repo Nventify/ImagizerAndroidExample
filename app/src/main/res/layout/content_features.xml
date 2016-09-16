@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Scale"
+            android:text="@string/scale"
             android:id="@+id/header1"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_marginTop="15dp"
@@ -30,7 +30,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Width"
+            android:text="@string/width"
             android:id="@+id/header2"
             android:layout_below="@+id/header1"
             android:layout_marginTop="10dp"
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Scale the image by width. The height will be calculated by the aspect ratio of the source image."
+            android:text="@string/scale_the_image_by_width_the_height_will_be_calculated_by_the_aspect_ratio_of_the_source_image"
             android:id="@+id/textView4"
             android:layout_below="@+id/header2"
             android:layout_marginBottom="10dp"
@@ -56,13 +56,13 @@
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView4"
             android:layout_centerHorizontal="true"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="width=300"
+            android:text="@string/width_300"
             android:id="@+id/textView11"
             android:layout_below="@+id/featuresImage1"
             android:layout_marginBottom="10dp"
@@ -72,7 +72,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Height"
+            android:text="@string/height"
             android:id="@+id/header3"
             android:layout_below="@+id/textView11"
             android:layout_marginTop="10dp"
@@ -84,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Scale the image by height. the width will be calculated by the aspect ratio of the source image."
+            android:text="@string/scale_the_image_by_height_the_width_will_be_calculated_by_the_aspect_ratio_of_the_source_image"
             android:id="@+id/textView5"
             android:layout_below="@+id/header3"
             android:layout_marginBottom="10dp"
@@ -98,13 +98,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView5"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="height=300"
+            android:text="@string/height_300"
             android:id="@+id/textView12"
             android:layout_below="@+id/featuresImage2"
             android:layout_marginBottom="10dp"
@@ -114,7 +114,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Crop"
+            android:text="@string/crop"
             android:id="@+id/header4"
             android:layout_below="@+id/textView12"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -125,7 +125,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fit"
+            android:text="@string/fit"
             android:id="@+id/header5"
             android:layout_below="@+id/header4"
             android:layout_marginTop="10dp"
@@ -137,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Crops any excess image data outside the width and height boundaries after scaling. The output image will match exactly the dimensions given."
+            android:text="@string/crops_any_excess_image_data_outside_the_width_and_height_boundaries_after_scaling_the_output_image_will_match_exactly_the_dimensions_given"
             android:id="@+id/textView6"
             android:layout_below="@+id/header5"
             android:layout_marginBottom="10dp"
@@ -151,13 +151,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView6"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="width=300&#038;height=300&#038;crop=fit"
+            android:text="@string/width_300_038_height_300_038_crop_fit"
             android:id="@+id/textView13"
             android:layout_below="@+id/featuresImage3"
             android:layout_marginBottom="10dp"
@@ -167,7 +167,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Responsive Images"
+            android:text="@string/responsive_images"
             android:id="@+id/header25"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_marginTop="15dp"
@@ -179,7 +179,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Response images will be scaled and cropped automatically to fit perfectly into image views no matter the device or screen size"
+            android:text="@string/response_images_will_be_scaled_and_cropped_automatically_to_fit_perfectly_into_image_views_no_matter_the_device_or_screen_size"
             android:id="@+id/textView47"
             android:layout_below="@+id/header25"
             android:layout_marginBottom="10dp"
@@ -192,9 +192,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/textView47"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            tools:ignore="ContentDescription" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -212,7 +213,8 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="10dp"
-                android:layout_weight="50" />
+                android:layout_weight="50"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/responsiveImage3"
@@ -221,13 +223,14 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
-                android:layout_weight="50" />
+                android:layout_weight="50"
+                tools:ignore="ContentDescription" />
         </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pad"
+            android:text="@string/pad"
             android:id="@+id/header6"
             android:layout_below="@+id/linearLayout"
             android:layout_marginTop="10dp"
@@ -239,7 +242,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Resizes an image to the given dimensions and fills the extra space with pad_color. The default color is white."
+            android:text="@string/resizes_an_image_to_the_given_dimensions_and_fills_the_extra_space_with_pad_color_the_default_color_is_white"
             android:id="@+id/textView7"
             android:layout_below="@+id/header6"
             android:layout_marginBottom="10dp"
@@ -253,13 +256,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
             android:layout_below="@+id/textView7"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="width=300&#038;height=300&#038;crop=pad"
+            android:text="@string/width_300_038_height_300_038_crop_pad"
             android:id="@+id/textView14"
             android:layout_below="@+id/featuresImage4"
             android:layout_marginBottom="10dp"
@@ -269,7 +272,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Custom"
+            android:text="@string/custom"
             android:id="@+id/header7"
             android:layout_below="@+id/textView14"
             android:layout_marginTop="10dp"
@@ -281,7 +284,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Custom crop allows for specifying a sub-region of the source image to be returned The value is 4 numbers representing x, y, width, and height separated using commas."
+            android:text="@string/custom_crop_allows_for_specifying_a_sub_region_of_the_source_image_to_be_returned_the_value_is_4_numbers_representing_x_y_width_and_height_separated_using_commas"
             android:id="@+id/textView8"
             android:layout_below="@+id/header7"
             android:layout_marginBottom="10dp"
@@ -295,13 +298,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
             android:layout_below="@+id/textView8"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="crop=65,190,300,300"
+            android:text="@string/crop_65_190_300_300"
             android:id="@+id/textView15"
             android:layout_below="@+id/featuresImage5"
             android:layout_marginBottom="10dp"
@@ -311,7 +314,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Object Detection"
+            android:text="@string/object_detection"
             android:id="@+id/header8"
             android:layout_below="@+id/textView15"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -322,7 +325,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Face"
+            android:text="@string/face"
             android:id="@+id/header9"
             android:layout_below="@+id/header8"
             android:layout_marginTop="10dp"
@@ -334,7 +337,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Crops out image data around any faces detected in the image."
+            android:text="@string/crops_out_image_data_around_any_faces_detected_in_the_image"
             android:id="@+id/textView9"
             android:layout_below="@+id/header9"
             android:layout_marginBottom="10dp"
@@ -348,13 +351,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
             android:layout_below="@+id/textView9"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="crop=face"
+            android:text="@string/crop_face"
             android:id="@+id/textView16"
             android:layout_below="@+id/featuresImage6"
             android:layout_marginBottom="10dp"
@@ -364,7 +367,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Entropy"
+            android:text="@string/entropy"
             android:id="@+id/header10"
             android:layout_below="@+id/textView16"
             android:layout_marginTop="10dp"
@@ -376,7 +379,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Entropy crop will find and return the most interesting features of the source image, cropping out less important areas."
+            android:text="@string/entropy_crop_will_find_and_return_the_most_interesting_features_of_the_source_image_cropping_out_less_important_areas"
             android:id="@+id/textView10"
             android:layout_below="@+id/header10"
             android:layout_marginBottom="10dp"
@@ -390,13 +393,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
             android:layout_below="@+id/textView10"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="crop=entropy"
+            android:text="@string/crop_entropy"
             android:id="@+id/textView17"
             android:layout_below="@+id/featuresImage7"
             android:layout_marginBottom="10dp"
@@ -406,7 +409,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pad"
+            android:text="@string/pad"
             android:id="@+id/header11"
             android:layout_below="@+id/textView17"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -418,7 +421,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Adds padding around an image with a given pad_color as a hex string. The default color is white."
+            android:text="@string/adds_padding_around_an_image_with_a_given_pad_color_as_a_hex_string_the_default_color_is_white"
             android:id="@+id/textView18"
             android:layout_below="@+id/header11"
             android:layout_marginBottom="10dp"
@@ -432,13 +435,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
             android:layout_below="@+id/textView18"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="pad=20&#038;pad_color=555"
+            android:text="@string/pad_20_038_pad_color_555"
             android:id="@+id/textView19"
             android:layout_below="@+id/featuresImage8"
             android:layout_marginBottom="10dp"
@@ -448,7 +451,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rotate"
+            android:text="@string/rotate"
             android:id="@+id/header12"
             android:layout_below="@+id/textView19"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -460,7 +463,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="The angle parameter tells Imagizer to rotate the image counter clockwise N degrees. The meaningful values are 90, 180, and 270 degrees."
+            android:text="@string/the_angle_parameter_tells_imagizer_to_rotate_the_image_counter_clockwise_n_degrees_the_meaningful_values_are_90_180_and_270_degrees"
             android:id="@+id/textView20"
             android:layout_below="@+id/header12"
             android:layout_marginBottom="10dp"
@@ -474,13 +477,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView20"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="angle=90"
+            android:text="@string/angle_90"
             android:id="@+id/textView21"
             android:layout_below="@+id/featuresImage9"
             android:layout_marginBottom="10dp"
@@ -490,7 +493,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quality (Compression)"
+            android:text="@string/quality_compression"
             android:id="@+id/header15"
             android:layout_below="@+id/textView21"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -502,7 +505,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="The quality setting allows for specifying the quality of the image. Decreasing the quality parameter will reduce the file size. Quality value may be set from 1 to 100 and the default value is 90."
+            android:text="@string/the_quality_setting_allows_for_specifying_the_quality_of_the_image_decreasing_the_quality_parameter_will_reduce_the_file_size_quality_value_may_be_set_from_1_to_100_and_the_default_value_is_90"
             android:id="@+id/textView26"
             android:layout_below="@+id/header15"
             android:layout_marginBottom="10dp"
@@ -516,13 +519,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView26"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="quality=90"
+            android:text="@string/quality_90"
             android:id="@+id/textView27"
             android:layout_below="@+id/featuresImage10"
             android:layout_marginBottom="10dp"
@@ -537,13 +540,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView27"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="quality=10"
+            android:text="@string/quality_10"
             android:id="@+id/textView28"
             android:layout_below="@+id/featuresImage11"
             android:layout_marginBottom="10dp"
@@ -553,7 +556,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sharpening"
+            android:text="@string/sharpening"
             android:id="@+id/header16"
             android:layout_below="@+id/textView28"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -565,7 +568,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Increase image sharpness"
+            android:text="@string/increase_image_sharpness"
             android:id="@+id/textView29"
             android:layout_below="@+id/header16"
             android:layout_marginBottom="10dp"
@@ -579,13 +582,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView29"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="sharp_amount=0"
+            android:text="@string/sharp_amount_0"
             android:id="@+id/textView30"
             android:layout_below="@+id/featuresImage12"
             android:layout_marginBottom="10dp"
@@ -600,13 +603,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView30"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="sharp_amount=100"
+            android:text="@string/sharp_amount_100"
             android:id="@+id/textView32"
             android:layout_below="@+id/featuresImage13"
             android:layout_marginBottom="10dp"
@@ -616,7 +619,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blur"
+            android:text="@string/blur"
             android:id="@+id/header19"
             android:layout_below="@+id/textView32"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -628,7 +631,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Blur Images (0-100)"
+            android:text="@string/blur_images_0_100"
             android:id="@+id/textView39"
             android:layout_below="@+id/header19"
             android:layout_marginBottom="10dp"
@@ -642,13 +645,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView39"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="blur=0"
+            android:text="@string/blur_0"
             android:id="@+id/textView41"
             android:layout_below="@+id/featuresImage14"
             android:layout_marginBottom="10dp"
@@ -663,13 +666,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView41"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="blur=30"
+            android:text="@string/blur_30"
             android:id="@+id/textView40"
             android:layout_below="@+id/featuresImage15"
             android:layout_marginBottom="10dp"
@@ -679,7 +682,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Filters"
+            android:text="@string/filters"
             android:id="@+id/header23"
             android:layout_below="@+id/textView40"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -691,7 +694,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Filters apply various effects to images. Imagizer offers 20 different filters."
+            android:text="@string/filters_apply_various_effects_to_images_imagizer_offers_20_different_filters"
             android:id="@+id/textView42"
             android:layout_below="@+id/header23"
             android:layout_marginBottom="10dp"
@@ -705,13 +708,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView42"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="filter=2"
+            android:text="@string/filter_2"
             android:id="@+id/textView43"
             android:layout_below="@+id/featuresImage16"
             android:layout_marginBottom="10dp"
@@ -726,13 +729,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView43"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="filter=3"
+            android:text="@string/filter_3"
             android:id="@+id/textView44"
             android:layout_below="@+id/featuresImage17"
             android:layout_marginBottom="10dp"
@@ -747,13 +750,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView44"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="filter=21"
+            android:text="@string/filter_21"
             android:id="@+id/textView45"
             android:layout_below="@+id/featuresImage18"
             android:layout_marginBottom="10dp"
@@ -763,7 +766,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Watermarking"
+            android:text="@string/watermarking"
             android:id="@+id/header24"
             android:layout_below="@+id/textView45"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -775,7 +778,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Imagizer supports watermarking. Pass the watermark image path and a few spatial parameters"
+            android:text="@string/imagizer_supports_watermarking_pass_the_watermark_image_path_and_a_few_spatial_parameters"
             android:id="@+id/textView25"
             android:layout_below="@+id/header24"
             android:layout_marginBottom="10dp"
@@ -789,13 +792,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/textView25"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="mark=/is-test/img921/1417/KlViNj.png&#038;mark_scale=60&#038;mark_pos=bottom,right&#038;mark_offset=2"
+            android:text="@string/mark_is_test_img921_1417_klvinj_png_038_mark_scale_60_038_mark_pos_bottom_right_038_mark_offset_2"
             android:id="@+id/textView46"
             android:layout_below="@+id/featuresImage19"
             android:layout_marginBottom="10dp"
